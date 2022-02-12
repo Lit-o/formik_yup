@@ -53,7 +53,7 @@ const Form = () => {
 
     return (
         <form className="form" onSubmit={formik.handleSubmit}>
-            <h2>Отправить пожертвование</h2>
+            <h2>Отправить деньги</h2>
             <label htmlFor="name">Ваше имя</label>
             <input
                 id="name"
